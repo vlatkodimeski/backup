@@ -1,0 +1,233 @@
+{
+  "config": {
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/Vlatko.Dimeski/Desktop/playwright-ts-lambdatest-master/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "name": "chrome:latest:MacOS Catalina@lambdatest",
+        "testDir": "C:/Users/Vlatko.Dimeski/Desktop/playwright-ts-lambdatest-master",
+        "testIgnore": [],
+        "testMatch": [
+          "**/?(*.)@(spec|test).*"
+        ],
+        "timeout": 300000
+      },
+      {
+        "outputDir": "C:/Users/Vlatko.Dimeski/Desktop/playwright-ts-lambdatest-master/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "name": "chrome:latest:Windows 10@lambdatest",
+        "testDir": "C:/Users/Vlatko.Dimeski/Desktop/playwright-ts-lambdatest-master",
+        "testIgnore": [],
+        "testMatch": [
+          "**/?(*.)@(spec|test).*"
+        ],
+        "timeout": 300000
+      },
+      {
+        "outputDir": "C:/Users/Vlatko.Dimeski/Desktop/playwright-ts-lambdatest-master/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "name": "chrome",
+        "testDir": "C:/Users/Vlatko.Dimeski/Desktop/playwright-ts-lambdatest-master",
+        "testIgnore": [],
+        "testMatch": [
+          "**/?(*.)@(spec|test).*"
+        ],
+        "timeout": 300000
+      },
+      {
+        "outputDir": "C:/Users/Vlatko.Dimeski/Desktop/playwright-ts-lambdatest-master/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "name": "firefox",
+        "testDir": "C:/Users/Vlatko.Dimeski/Desktop/playwright-ts-lambdatest-master",
+        "testIgnore": [],
+        "testMatch": [
+          "**/?(*.)@(spec|test).*"
+        ],
+        "timeout": 300000
+      }
+    ],
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "jsonReports/jsonReport.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "rootDir": "C:/Users/Vlatko.Dimeski/Desktop/playwright-ts-lambdatest-master",
+    "quiet": false,
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.22.2",
+    "workers": 6,
+    "webServer": null,
+    "_globalOutputDir": "C:\\Users\\Vlatko.Dimeski\\Desktop\\playwright-ts-lambdatest-master",
+    "_configDir": "C:\\Users\\Vlatko.Dimeski\\Desktop\\playwright-ts-lambdatest-master",
+    "_testGroupsCount": 1
+  },
+  "suites": [
+    {
+      "title": "tests\\011_addToCartUsingFixture.test.ts",
+      "file": "tests/011_addToCartUsingFixture.test.ts",
+      "line": 0,
+      "column": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Page object test demo",
+          "file": "tests/011_addToCartUsingFixture.test.ts",
+          "line": 8,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Register test_01",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "chrome",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 6900,
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\Vlatko.Dimeski\\Desktop\\playwright-ts-lambdatest-master\\test-results\\tests-011_addToCartUsingFixture-Page-object-test-demo-Register-test-01-chrome\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "file": "tests/011_addToCartUsingFixture.test.ts",
+              "line": 10,
+              "column": 5
+            },
+            {
+              "title": "Login test_02",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "chrome",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 5326,
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\Vlatko.Dimeski\\Desktop\\playwright-ts-lambdatest-master\\test-results\\tests-011_addToCartUsingFixture-Page-object-test-demo-Login-test-02-chrome\\test-finished-1.png"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\Vlatko.Dimeski\\Desktop\\playwright-ts-lambdatest-master\\test-results\\tests-011_addToCartUsingFixture-Page-object-test-demo-Login-test-02-chrome\\test-finished-2.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "file": "tests/011_addToCartUsingFixture.test.ts",
+              "line": 23,
+              "column": 5
+            },
+            {
+              "title": "Add to cart test_03",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "chrome",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "skipped",
+                      "duration": 38911,
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\Vlatko.Dimeski\\Desktop\\playwright-ts-lambdatest-master\\test-results\\tests-011_addToCartUsingFixture-Page-object-test-demo-Add-to-cart-test-03-chrome\\test-failed-1.png"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\Vlatko.Dimeski\\Desktop\\playwright-ts-lambdatest-master\\test-results\\tests-011_addToCartUsingFixture-Page-object-test-demo-Add-to-cart-test-03-chrome\\test-failed-2.png"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\Vlatko.Dimeski\\Desktop\\playwright-ts-lambdatest-master\\test-results\\tests-011_addToCartUsingFixture-Page-object-test-demo-Add-to-cart-test-03-chrome\\test-failed-3.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "file": "tests/011_addToCartUsingFixture.test.ts",
+              "line": 31,
+              "column": 5
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": []
+}
